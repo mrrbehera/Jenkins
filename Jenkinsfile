@@ -10,7 +10,7 @@ pipeline {
         }
         stage('Stage2') {
           steps {
-            build(job: 'hp1', quietPeriod: 2)
+            build(job: 'buildrajesh1', quietPeriod: 2)
           }
         }
       }
